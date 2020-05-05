@@ -83,7 +83,8 @@ export default {
       this.todos.push({
         id: this.idForTodo,
         title: this.newTodo,
-        completed: false
+        completed: false,
+        editing: false
       });
       this.newTodo = "";
       this.idForTodo++;
